@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JS Bin</title>
+    <link rel="stylesheet" href="phone drawing board.css" type="text/css">
+</head>
+
+<body>
+<canvas id="xxx" width=300 height=300></canvas>
+<div id=actions class="actions">
+    <svg id=pen class="active icon" >
+        <use xlink:href="#icon-pen"></use>
+    </svg>
+    <svg id=eraser class="icon" >
+        <use xlink:href="#icon-eraser"></use>
+    </svg>
+    <svg id=qingchu class="icon" >
+        <use xlink:href="#icon-qingchu"></use>
+    </svg>
+    <svg id=baocun class="icon" >
+        <use xlink:href="#icon-baocun"></use>
+    </svg>
+</div>
+<ol class="colors">
+    <li id="red" class="red active"></li>
+    <li id="green" class="green"></li>
+    <li id="blue" class="blue"></li>
+</ol>
+<ol class="size">
+    <li id="xi" class="xi"></li>
+    <li id="cu" class="cu"></li>
+</ol>
+</body>
+<script type="text/javascript" src="phone drawing board.js"></script>
+<script src="//at.alicdn.com/t/font_862151_27onw9xctjs.js"></script>
+</html>

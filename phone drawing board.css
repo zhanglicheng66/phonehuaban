@@ -1,0 +1,95 @@
+ul,ol{list-style: none;}
+.{margin:0;padding: 0;}
+#xxx{
+    background:  white ;
+    display: block;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+body{
+    margin: 0px;
+}
+
+html{
+}
+  /*iconfont*/
+.actions{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+.actions > #brush{
+    display: none;
+}
+
+.actions.x > #brush{
+    display: inline-block;
+}
+.actions.x > #eraser{
+    display: none
+}
+
+
+.icon {
+    width: 11em; height: 11em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.actions svg.active {
+    fill:red;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.colors{
+    position: fixed;
+    top:200px;
+    left:10px;
+    /*border: 1px solid red;*/
+}
+.colors>li{
+    width: 50px;
+    height: 59px;
+    border-radius: 50%;
+    border: 1px solid red ;
+    margin: 20px 0;
+}
+.colors>li.red{
+    background: red;
+}
+.colors>li.green{
+    background: green;
+}
+.colors>li.blue{
+    background: blue;
+}
+.colors>li.active{
+    width: 50px;
+    height: 59px;
+    border-radius: 50%;
+    border: 1px solid red ;
+    margin: 20px 0;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.size{
+    position: fixed;
+    right: 10px;
+    top:20px;
+}
+.size > .xi{
+    height: 0;
+    width:100px;
+    border-top:5px solid black;
+}
+.size > .cu{
+    height: 0;
+    width:100px;
+    border-top:8px solid black;
+}
+.size > li{
+ margin:50px 0;
+}
